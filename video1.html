@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head><title>Video 1</title></head>
-<body style="text-align:center; padding:40px;">
-  <h2>Adjust Contact roll on Opportunity</h2>
-  <video autoplay loop muted playsinline width="720" height="405" controls>
+<head>
+  <meta charset="UTF-8">
+  <title>Video 1</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted playsinline controls>
     <source src="video1.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
